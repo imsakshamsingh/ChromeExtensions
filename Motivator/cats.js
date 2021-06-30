@@ -1,11 +1,6 @@
 // const apiKey = '342f375e3ca844c5a1b1840e9b5c657b';
 
 async function getCats(){
-    //build URL
-    //do a GET Call to the url,
-    //print the response
-    //parse the response to list
-    //show the list in index.html
     try {
         console.log("Inside getCats()")
         const response = await fetch('https://api.thecatapi.com/v1/images/search')
