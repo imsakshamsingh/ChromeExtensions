@@ -1,4 +1,4 @@
-function test() {
+function setMotivationQuote() {
     console.log("In here")
     var e = document.getElementById("motivation")
     try {
@@ -32,4 +32,4 @@ async function callMotivationQuoteAPI() {
 }
 
 
-test();
+setMotivationQuote();
